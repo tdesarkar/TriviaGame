@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Trivia Game</title>
+
+		<!-- Link in CSS Files -->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	</head>
+	<body>
+
+		<!-- Start of the game -->
+		<div id = start_container>
+			<!-- Static Game Logo -->
+			<h1 class = "logo">Random Trivia</h1>
+
+			<button id = start_button>Start</button>
+		</div>
+
+
+		<!-- During Gameplay Container -->
+		<div id = mid_game_container>
+			<!-- Static Game Logo -->
+			<h1 class = "logo">Random Trivia</h1>
+
+			<!-- Game Timer -->
+			<h1 id = "timer_line">Time Remaining: <span id = "timer_number">60 Seconds</span></h1>
+
+			<!-- Game Questions -->
+
+			<h1>1. In what place was Christmas once illegal?</h1>
+			<!-- England -->
+				<input type="radio" name="q1" value="Brazil">Brazil 
+				<input type="radio" name="q1" value="England">England
+				<input type="radio" name="q1" value="France">France 
+				
+
+			<h1>2. In California, it is illegal to eat oranges while doing what?</h1>
+			<!-- Bathing -->
+				<input type="radio" name="q2" value="Bathing">Bathing
+				<input type="radio" name="q2" value="Working on a Computer">Working on a Computer
+				<input type="radio" name="q2" value="Driving">Driving
+
+
+
+			<h1>3. Coulrophobia means fear of what?</h1>
+			<!-- Clowns -->
+				<input type="radio" name="q3" value="Sacred Things">Sacred Things
+				<input type="radio" name="q3" value="Clowns">Clowns 
+				<input type="radio" name="q3" value="Old People">Old People 
+	
+
+
+			<h1>4. Which of the following is the longest running American animated TV show?</h1>
+			<!-- Simpsons -->
+				<input type="radio" name="q4" value="Family Guy">Family Guy 
+				<input type="radio" name="q4" value="Simpsons">Simpsons 
+				<input type="radio" name="q4" value="Spongebob">Spongebob
+			
+
+			<h1>5. What is the fear of houses?</h1>
+			<!-- Oikophobia  -->
+				<input type="radio" name="q5" value="Neophobia">Neophobia
+				<input type="radio" name="q5" value="Jedeophobia">Jedeophobia
+				<input type="radio" name="q5" value="Oikophobia">Oikophobia
+			
+			
+			<h1>6. In what key do most American car-horns honk?</h1>
+			<!-- F -->
+				<input type="radio" name="q6" value="C">C
+				<input type="radio" name="q6" value="E">E
+				<input type="radio" name="q6" value="F">F
+		
+				<br>
+
+
+			<button id = done_button>Done!</button>
+
+		</div>
+
+
+
+
+		<!-- End of the game -->
+		<div id = end_container>
+			<!-- Static Game Logo -->
+			<h1 class = "logo">Random Trivia</h1>
+
+			<h1 id = "done">All Done!</h1>
+			<br>
+
+			<h1>Correct Answers: <span id = "correct_answers">0</span></h1>
+			<h1>Incorrect Answers: <span id = wrong_answers>0</span></h1>
+			<h1>Unanswered: <span id = "unanswered">0</span></h1>
+		</div>
+			
+
+
+
+		<!-- Link in jQuery -->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+		<!-- Link in JavaScript -->
+		<script src="assets/javascript/app.js"></script>
+		
+	</body>
+</html>
